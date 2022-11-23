@@ -1,0 +1,348 @@
+body {
+  font-family: 'Helvetica', sans-serif ;
+  font-weight: bold;
+ 
+}
+.home-body {
+  font-family: 'Helvetica', sans-serif ;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url();
+  background:white ;
+  
+  
+}
+
+
+/*Navbar */
+
+.navbar {
+  background-color:#db3727;
+  position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+   
+  
+  
+}
+
+.navbar ul li:hover a{
+   color: black;
+   
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dropdown-menu {
+  
+  background-color: #db3727;
+}
+
+.dropdown-menu a:hover {
+  color: black;
+}
+
+/*Navbar end */
+
+/* banner */
+
+.banner-main {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/dealership.jpg);
+  height: 15vh;
+  padding-top: 50px;
+}
+
+.banner-heading {
+  text-align: center;
+}
+
+
+.banner-info {
+  padding: 30px;
+}
+/* banner end */
+/* Home content */
+
+.home-info {
+  padding-bottom: 20px;
+  padding-top: 40px;
+
+}
+
+/* Home content end */
+.google {
+ padding-left: 28px;
+ padding-right: 28px;
+ padding-top: 0;
+ padding-bottom: 0px;
+
+}
+.map{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+  
+}
+.map iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  
+}
+
+.footer {
+  background: white;
+  font-weight: bold;
+  height: 15vh;
+  position:absolute;
+  
+}
+
+/*google end */
+
+/*home Carousel */
+
+/*home Carousel end */
+.banner-other-services {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+  
+}
+
+/*Stock Start */
+
+.stock-options {
+  background: #db3727;
+  padding: 10px;
+}
+
+.stock-images {
+  margin: 3px;
+  border: solid #db3727 3px;
+  
+}
+
+.gallery-list-item {
+  color: black;
+  cursor: pointer;
+
+}
+
+
+
+/*Stock end */
+
+
+/*  Other Services */
+.card-1 {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5 )), url(images/services1.jpg) 
+  center /cover;
+  box-shadow: 7px 18px 50px #555;
+  max-width: 400px;
+  border: solid 10px;
+  border-color: #db3727;
+  
+}
+.card-2 {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5 )), url(images/services2.jpg) 
+  center /cover;
+  box-shadow: 7px 18px 50px #555;
+  max-width: 400px;
+  border: solid 10px;
+  border-color: #db3727;
+}
+
+.card-list-item {
+  border-bottom: 3px;
+  width: 70%;
+  margin: auto;
+}
+
+.price-card-button {
+  background: #db3727;
+  width: 130px;
+  box-shadow: 5px, 8px 18px #000;
+
+  
+}
+
+.price-card-button:hover  {
+  background: black;
+
+
+}
+
+/*  Other Services end */
+
+/*About Us */
+
+/*About us end */
+
+.team-column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.team-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+
+
+.team-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #db3727;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.team-button a, .team-button>a:visited, a:active {
+  color:white;
+}
+.team-button a:hover {
+  color:black;
+  text-decoration: none;
+  
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+@media screen and (max-width: 650px) {
+  .about-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*Team Start */
+.carousel-inner {
+  border-radius: 5%;
+  border: 5px solid #db3727;
+}
+
+
+/*Team end */
+
+
+/*Sourcing start */
+
+.source-body {
+  font-family: 'Helvetica', sans-serif ;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(images/sourcebg.jpg);
+  
+
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*Sourcing End*/
+
+/*Contact Start */
+
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 3px solid #db3727;
+}
+
+h1, p {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+/*Contact end */
+
+/*Finance start */
+
+.finance-banner {
+  
+  background-image: url(images/financeban.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10vh;
+
+}
+/*Finance end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
